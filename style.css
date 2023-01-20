@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Oswald", sans-serif;
+    font-size: 62.5%;
+    background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 4rem;
+}
+
+.search {
+    display: flex;
+    width: 50%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    outline: blue;
+    color: #051937;
+}
+
+.search input {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.primary-btn {
+    width: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #a8eb12;
+}
+
+.profile-box {
+    padding: 4rem 2rem;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.1);
+}
+
+.avatar {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.avatar img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20rem;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Check-btn {
+    height: 50px;
+    padding: 4px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.status {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
